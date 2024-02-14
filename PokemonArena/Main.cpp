@@ -51,14 +51,14 @@ int main()
     cout << "What's your name ?\n" << endl;
     cin >> trainer;
     cout << "Welcome, " << trainer << "!" << endl;
-    cout << "A wild Pokemon appears!" << endl;
+    cout << "A Pokemon appears !" << endl;
     cout << endl;
 
-    cout << "Snorlax, I choose you!" << endl;  
+    cout << "Snorlax, You can do it !" << endl;  
 
     do {
-        cout << "Choose an attack:" << endl;
-        cout << "0. Charge\n1. High Ground\n2. Mega Smash\n3. Hate" << endl;
+        cout << "Choose an attack :" << endl;
+        cout << "0. BodySlam\n1. Lick\n2. HyperBeam\n3. Lick" << endl;
         int playerAttack;
         cin >> playerAttack;
 
@@ -66,7 +66,7 @@ int main()
         cout << "Charmander's remaining life: " << CharmanderLife << endl;
 
         if (CharmanderLife <= 0) {
-            cout << "Charmander fainted! " << trainer << " wins, Congratulations !" << endl;
+            cout << "Charmander fainted! " << trainer << " wins, congratulations !" << endl;
             break;
         }
 
@@ -76,7 +76,7 @@ int main()
         cout << "Snorlax's remaining life: " << SnorlaxLife << endl;
 
         if (SnorlaxLife <= 0) {
-            cout << "Snorlax fainted! " << trainer << " loses, that's a shame..." << endl;
+            cout << "Snorlax fainted ! " << trainer << " loses, that's a shame..." << endl;
             break;
         }
 
